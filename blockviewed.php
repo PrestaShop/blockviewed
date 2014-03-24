@@ -34,7 +34,7 @@ class BlockViewed extends Module
 	{
 		$this->name = 'blockviewed';
 		$this->tab = 'front_office_features';
-		$this->version = 1;
+		$this->version = 1.1;
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
@@ -43,6 +43,7 @@ class BlockViewed extends Module
 
 		$this->displayName = $this->l('Viewed products block');
 		$this->description = $this->l('Adds a block displaying recently viewed products.');
+		$this->ps_versions_compliancy = array('min' => '1.5.6.1', 'max' => _PS_VERSION_);
 	}
 
 	public function install()
