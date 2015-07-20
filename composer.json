@@ -1,6 +1,6 @@
 {
-  "name": "PrestaShop/modules/blockviewed",
-  "description": "Prestashop module blockviewed",
+  "name": "PrestaShop/blockviewed",
+  "description": "PrestaShop module blockviewed",
   "homepage": "https://github.com/PrestaShop/blockviewed",
   "license": "AFL - Academic Free License (AFL 3.0)",
   "authors": [
@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": ">=5.2"
+    "php": ">=5.3.2"
   },
   "config": {
     "preferred-install": "dist"
